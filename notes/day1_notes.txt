@@ -59,6 +59,10 @@ ECMAScript: Guideline language for every scripting language
 ES2015/ES6: let, const, class, constructor, extends, super, spread operator, arrow functions, string template, etc. 
 ES2017/ES7, ES8, ES9...
 
+every new function in JS. defines its own this value based on how the function is being called (used):
+a. a new object in the case of a func ctor call
+b. undefined in strict mode function calls
+c. the base object if the func was called as an object
 
 
 
