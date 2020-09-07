@@ -1,0 +1,9 @@
+JavaScript:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+
+ES6 new features:
+http://es6-features.org/#Constants
+
+json schema link:
+http://www.schemastore.org/json/
