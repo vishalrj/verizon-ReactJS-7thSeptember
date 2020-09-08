@@ -1,0 +1,118 @@
+pre-react:
+JavaScript: OOP concepts (prototype based programming)
+new features in JS: class,ctor, let, const, arrow functions, spread operator
+
+Node JS
+
+react-creating application
+create react app without any tool
+create-react-app --> going to use next time onwards
+babel etc.
+webpack etc.
+loaders etc.
+
+react concepts:
+later
+
+Node JS and NPM
+VS Code
+
+techniques to crate JS object:
+a. object literal syntax
+b. function constructor
+c. Object.create()
+d. class with new keyword
+
+prototype object:
+it is an object for function constructor created in JS runtime context
+contains two properties: 
+a. constructor: refers to the function itself
+b. __proto__: refers to the 'Object' prototype object [function object(){}]
+
+actual object: (new keyword)
+when a JS object is created based on a function constructor call, then this object is linked to the prototype object of the function constructor itself.
+__proto__: refer to the prototype object of the function constructor (based on which this object has been created)
+other properties (fn,ln,print etc.)
+
+object function ---> prototype object
+person function ---> prototype object
+trainee function ---> prototype object
+saliha variable ---> actual object
+
+var p = {
+  name: 'joy'
+};
+
+p.location = 'bangalore';
+
+how to access prototype object
+a. from an object (created based on the function constructor itself): 
+using __proto__ property of that object
+aliha.__proto__
+
+b. from function constructor itself: 
+using <func-ctor-name>.prototype property
+trainee.prototype
+
+ECMAScript: Guideline language for every scripting language
+
+ES2015/ES6: let, const, class, constructor, extends, super, spread operator, arrow functions, string template, object destructuring, etc...
+ES2017/ES7, ES8, ES9...
+
+every new function in JS. defines its own this value based on how the function is being called (used):
+a. a new object in the case of a func ctor call
+b. undefined in strict mode function calls
+c. the base object if the func was called as an object
+
+
+Employee: name,id,basicPay,daPay,hraPay
+
+Hr: name,id,basicPay,daPay,hraPay,gratuityPay
+Developer: name,id,basicPay,daPay,hraPay,incentivePay
+
+create instances (at least 4) of employee types and store them in an array (see below)
+const employees = [new Hr(), new Developer()];
+iterate through array and pick up one object (Hr/Developer) at a time and call it's method to calculate salary and print the same.
+
+
+ES7 React/Redux/React-Native/JS snippets
+
+Node JS: server side framework
+
+chrome console: V8 engine --> C++ code
+
+Node JS runtime is built at the top of V8 engine
+
+module: a single file considered as module
+module formats:
+a. IIFE: Immediately Invocable Function Expression (IIFY)
+b. Common JS (default module format for Node JS)[module.exports, require]
+c. ES6 modules (import/export)
+d. AMD (asynchronous module definition)
+etc.
+
+module loader: common js loader (node js env--not supported in brwoser env, Require JS (module loader for brwoser env)
+
+code  --> node runtime --> commonjs loader--(index.js-->developer and hr-->employee)-->v8
+
+UI: 
+a. split that UI into multiple pieces
+b. handle design and co-related data in a separate file
+
+components: angular, react, vue etc.
+
+React JS: a JS library 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
